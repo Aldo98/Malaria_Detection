@@ -1,0 +1,30 @@
+!!python/object:networkx.classes.graph.Graph
+_adj:
+  0:
+    1: &id001 {}
+    3: &id003 {}
+  1:
+    0: *id001
+    2: &id002 {}
+  2:
+    1: *id002
+    3: &id004 {}
+    4: &id005 {}
+  3:
+    0: *id003
+    2: *id004
+  4:
+    2: *id005
+_node:
+  0: {}
+  1: {}
+  2: {}
+  3: {}
+  4: {}
+adjlist_inner_dict_factory: &id006 !!python/name:builtins.dict ''
+adjlist_outer_dict_factory: *id006
+edge_attr_dict_factory: *id006
+graph: {}
+graph_attr_dict_factory: *id006
+node_attr_dict_factory: *id006
+node_dict_factory: *id006

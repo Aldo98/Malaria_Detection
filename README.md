@@ -16,7 +16,7 @@ to Get Indicies Split data into Train, Validation and Test Data Run This :
 
 | Argument | default | help |
 |:---------|:--------|:-----|
-|'--img_path'| default='../cell-images-for-detecting-malaria/Fill') | Num of Channels |
+|'--img_path'| default='../cell-images-for-detecting-malaria/Fill') | Path of folder that contain dataset |
 |'--test_size'| default=0.1) | Size of data Test |
 |'--valid_size'| default=0.2) | Size of data Validation |
 
